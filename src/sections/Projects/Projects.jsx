@@ -11,34 +11,43 @@ export function Projects() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 sticky top-32">
           <div className="lg:col-span-5">
             <div className="font-mono text-6xl font-bold text-sender-white/20 mb-4">01</div>
-            <h3 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Actualización Planta Transmisora</h3>
+            <h3 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Desmontaje Armada de Chile</h3>
             <div className="font-mono text-xs uppercase tracking-widest border-b border-sender-white/20 pb-4 mb-6">
-              Categoría: Transmisión FM
+              Categoría: Infraestructura
             </div>
             <p className="text-lg font-light leading-relaxed mb-12">
-              Despliegue completo de un nuevo sistema de transmisión con redundancia n+1 para asegurar conectividad ininterrumpida.
+              Trabajo de ingeniería civil y telecomunicaciones para la Armada de Chile. Desmontaje complejo de infraestructura estratégica en Playa Ancha.
             </p>
             
-            <div className="bg-sender-dark/20 p-6 font-mono text-sm">
+            <div className="bg-sender-dark/20 p-6 font-mono text-sm mb-12">
               <div className="mb-2 text-sender-white/50">DATA TÉCNICA</div>
               <ul className="space-y-2">
                 <li className="flex justify-between border-b border-sender-white/10 pb-1">
-                  <span>POTENCIA:</span> <span>10 kW</span>
+                  <span>CLIENTE:</span> <span>Armada de Chile</span>
                 </li>
                 <li className="flex justify-between border-b border-sender-white/10 pb-1">
-                  <span>FRECUENCIA:</span> <span>98.5 MHz</span>
+                  <span>UBICACIÓN:</span> <span>Valparaíso</span>
                 </li>
                 <li className="flex justify-between border-b border-sender-white/10 pb-1">
-                  <span>SISTEMA:</span> <span>Estado Sólido</span>
+                  <span>ESTRUCTURA:</span> <span>Torre 60 metros</span>
                 </li>
               </ul>
             </div>
+
+            <div className="font-mono text-6xl font-bold text-sender-white/20 mb-4">02</div>
+            <h3 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Comunicaciones HF Rapa Nui</h3>
+            <div className="font-mono text-xs uppercase tracking-widest border-b border-sender-white/20 pb-4 mb-6">
+              Categoría: Defensa y Radiodifusión
+            </div>
+            <p className="text-lg font-light leading-relaxed mb-12">
+              Solución de comunicaciones de alta eficiencia y largo alcance para entornos estratégicos con instalación y operación directa en Isla de Pascua.
+            </p>
           </div>
           
           <div className="lg:col-span-7 h-[60vh] bg-sender-dark/10 border border-sender-white/20 flex flex-col items-center justify-center relative overflow-hidden">
             <span className="font-mono text-sender-white/50 text-sm text-center px-4">
               [ IMAGE ROLE 04 — PROJECT ]<br/>
-              REAL PHOTOGRAPHY OVERLAY HERE
+              FOTO REAL DE LA TORRE DE 60M (VALPARAÍSO) O ISLA DE PASCUA
             </span>
             <div className="absolute top-4 left-4 w-4 h-4 border-t border-l border-sender-white/50"></div>
             <div className="absolute bottom-4 right-4 w-4 h-4 border-b border-r border-sender-white/50"></div>

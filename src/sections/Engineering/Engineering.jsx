@@ -13,24 +13,25 @@ export function Engineering() {
               <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
               <span className="font-mono text-sender-white/30 text-sm text-center">
                 [ IMAGE ROLE 02 — ENGINEERING ]<br/>
-                WAITING FOR REAL ASSETS
+                FOTO REAL DE MONTAJE DE TORRE<br/>
+                (Esperando archivo)
               </span>
             </div>
           </div>
           <div className="flex flex-col justify-center">
-            <h3 className="text-4xl font-bold mb-8">Ingeniería de Radiofrecuencia</h3>
+            <h3 className="text-4xl font-bold mb-8">Ingeniería y Montaje de Infraestructura</h3>
             <div className="space-y-6 border-l border-sender-light/30 pl-6">
               <div>
-                <h4 className="font-mono text-sender-light mb-2">01 / TRANSMISORES FM & AM</h4>
-                <p className="text-sender-white/70 font-light leading-relaxed">Instalación y calibración de sistemas de alta potencia. Optimización de eficiencia energética y redundancia.</p>
+                <h4 className="font-mono text-sender-light mb-2">01 / TORRES Y ANTENAS</h4>
+                <p className="text-sender-white/70 font-light leading-relaxed">Venta e instalación de torres contraventadas galvanizadas, antenas y equipos de radiodifusión. Experiencia en desmontaje de torres autosoportadas.</p>
               </div>
               <div>
-                <h4 className="font-mono text-sender-light mb-2">02 / SISTEMAS IRRADIANTES</h4>
-                <p className="text-sender-white/70 font-light leading-relaxed">Diseño de arreglos de antenas, medición de ROE y diagramas de radiación técnicos.</p>
+                <h4 className="font-mono text-sender-light mb-2">02 / SISTEMAS NAVTEX Y DEFENSA</h4>
+                <p className="text-sender-white/70 font-light leading-relaxed">Soluciones de transmisión MF (490/518 kHz) para sistemas NAVTEX, diseñadas para operación confiable en entornos marítimos.</p>
               </div>
               <div>
-                <h4 className="font-mono text-sender-light mb-2">03 / ENLACES STL</h4>
-                <p className="text-sender-white/70 font-light leading-relaxed">Redes de microondas de alta disponibilidad para transporte de audio y datos IP.</p>
+                <h4 className="font-mono text-sender-light mb-2">03 / COMUNICACIONES HF</h4>
+                <p className="text-sender-white/70 font-light leading-relaxed">Soluciones en antenas HF de alto rendimiento (1.6 a 30 MHz) para comunicaciones profesionales de largo alcance.</p>
               </div>
             </div>
           </div>

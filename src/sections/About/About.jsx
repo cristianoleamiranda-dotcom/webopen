@@ -10,17 +10,17 @@ export function About() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
           <div className="md:col-span-8">
             <h2 className="text-5xl md:text-7xl font-bold tracking-tight leading-tight">
-              Diseñamos y construimos sistemas de transmisión de misión crítica.
+              Más de 20 años de excelencia en telecomunicaciones y broadcasting.
             </h2>
           </div>
           <div className="md:col-span-4 flex flex-col justify-end">
             <div className="border-t border-sender-dark/20 pt-6">
               <p className="text-lg font-light leading-relaxed mb-6">
-                Nuestra ingeniería asegura que la señal nunca se detenga. Con base en Santiago de Chile, proveemos soluciones de radiofrecuencia para toda Latinoamérica.
+                Desarrollamos y suministramos tecnología para proyectos nacionales e internacionales. Especialistas en soluciones de ingeniería, equipamiento RF y sistemas de transmisión de alta complejidad.
               </p>
               <div className="font-mono text-xs text-sender-dark/60 tracking-wider">
-                LATITUDE: 33.4489° S<br/>
-                LONGITUDE: 70.6693° W
+                ORIGEN: SANTIAGO, CHILE<br/>
+                STANDARDS: CALIDAD INTERNACIONAL
               </div>
             </div>
           </div>

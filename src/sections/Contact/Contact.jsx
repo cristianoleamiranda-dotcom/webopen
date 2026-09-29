@@ -10,20 +10,24 @@ export function Contact() {
           </span>
           <h2 className="text-5xl md:text-7xl font-bold mb-8">Inicia la <br/><span className="text-sender-blue">transmisión.</span></h2>
           <p className="text-lg font-light text-sender-white/70 max-w-md">
-            Ingeniería especializada para sistemas que no pueden fallar. Contáctanos para discutir la arquitectura de tu próxima red.
+            Desarrollando productos y servicios de acuerdo a las necesidades de nuestros clientes con estándares internacionales.
           </p>
         </div>
         
         <div className="flex flex-col justify-center space-y-12">
           <div>
-            <div className="font-mono text-sender-light text-xs mb-2">CORREO DE INGENIERÍA</div>
-            <a href="mailto:contacto@sender.cl" className="text-2xl md:text-3xl font-light hover:text-sender-blue transition-colors border-b border-sender-white/20 pb-2">contacto@sender.cl</a>
+            <div className="font-mono text-sender-light text-xs mb-2">COMUNICACIONES</div>
+            <a href="mailto:sender@sender.cl" className="text-2xl md:text-3xl font-light hover:text-sender-blue transition-colors border-b border-sender-white/20 pb-2">sender@sender.cl</a>
+            <div className="mt-4 font-mono text-sender-white/70">
+              VENTAS: <a href="mailto:bis.ltda@gmail.com" className="hover:text-sender-blue">bis.ltda@gmail.com</a><br/>
+              TEL / WHATSAPP: (+569) 8386 4148
+            </div>
           </div>
           <div>
-            <div className="font-mono text-sender-light text-xs mb-2">CENTRAL SANTIAGO, CHILE</div>
+            <div className="font-mono text-sender-light text-xs mb-2">CENTRAL</div>
             <p className="text-xl font-light text-sender-white/80">
-              Av. Transmisión 1024<br/>
-              Piso 4, Sector Técnico
+              Blanco Viel #1108, 2º piso<br/>
+              San Miguel, Santiago, Chile
             </p>
           </div>
         </div>
