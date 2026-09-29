@@ -13,18 +13,17 @@ export function Engineering() {
               <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:4rem_4rem] z-10 pointer-events-none"></div>
               
               <img 
-                src="/images/b_Usa_la_imagen_adjunt.png" 
+                src="/webopen/images/cap-rf.jpg" 
                 alt="Infraestructura de RF SENDER" 
-                className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-1000 ease-out mix-blend-screen opacity-80" 
+                className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-1000 ease-out" 
               />
-              <div className="absolute inset-0 bg-sender-blue/10 mix-blend-overlay pointer-events-none"></div>
+              <div className="absolute inset-0 bg-sender-blue/20 mix-blend-overlay pointer-events-none"></div>
               
               <div className="absolute bottom-6 left-6 z-20">
                 <span className="font-mono text-sender-white/90 text-xs bg-sender-dark/90 px-3 py-1.5 backdrop-blur-md border border-sender-white/20">
                   ESTRUCTURA_RF_01.JPG
                 </span>
               </div>
-              {/* Technical visual elements */}
               <div className="absolute top-6 right-6 w-2 h-2 bg-sender-light rounded-full animate-pulse z-20"></div>
             </div>
           </div>
