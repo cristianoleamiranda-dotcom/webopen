@@ -1,24 +1,29 @@
 import React from 'react'
 import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
+
+import { Navigation } from './components/navigation/Navigation'
 import { Hero } from './sections/Hero/Hero'
+import { About } from './sections/About/About'
+import { Engineering } from './sections/Engineering/Engineering'
+import { Projects } from './sections/Projects/Projects'
+import { Products } from './sections/Products/Products'
+import { Contact } from './sections/Contact/Contact'
 
 function App() {
-  // Lenis instance for global smooth scroll
   useLenis(({ scroll }) => {
-    // Scroll callback for future GSAP integrations
+    // Scroll callback
   })
 
   return (
     <ReactLenis root>
-      <main className="bg-sender-dark min-h-[200vh] text-sender-white selection:bg-sender-blue selection:text-white">
+      <main className="bg-sender-dark min-h-screen text-sender-white selection:bg-sender-blue selection:text-white">
+        <Navigation />
         <Hero />
-        
-        {/* Placeholder for the next architectural scene */}
-        <section className="w-full min-h-screen border-t border-sender-white/5 flex items-center justify-center">
-          <div className="font-mono text-sender-light tracking-widest">
-            [ SCENE 02 — SENDER ENGINEERING // PENDING DESIGN LOOP ]
-          </div>
-        </section>
+        <About />
+        <Engineering />
+        <Projects />
+        <Products />
+        <Contact />
       </main>
     </ReactLenis>
   )
