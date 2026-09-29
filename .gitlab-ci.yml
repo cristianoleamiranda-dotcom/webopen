@@ -1,0 +1,30 @@
+# Plantilla CI/CD de GitLab para el Ecosistema
+stages:
+  - lint
+  - build
+  - test
+  - deploy
+
+variables:
+  NODE_ENV: "production"
+
+cache:
+  paths:
+    - node_modules/
+
+lint_design_tokens:
+  stage: lint
+  script:
+    - echo "Validando que los tokens generados por Open-Design sean correctos..."
+    # - npm run lint:design
+
+build_app:
+  stage: build
+  script:
+    - echo "Compilando la aplicación generada..."
+    # - npm install
+    # - npm run build
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 1 week
