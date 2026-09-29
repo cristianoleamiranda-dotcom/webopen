@@ -9,13 +9,23 @@ export function Engineering() {
         </span>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div>
-            <div className="w-full aspect-square bg-sender-white/5 border border-sender-white/10 flex items-center justify-center relative overflow-hidden group">
-              <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
-              <span className="font-mono text-sender-white/30 text-sm text-center">
-                [ IMAGE ROLE 02 — ENGINEERING ]<br/>
-                FOTO REAL DE MONTAJE DE TORRE<br/>
-                (Esperando archivo)
-              </span>
+            <div className="w-full aspect-[3/4] bg-sender-white/5 border border-sender-white/10 flex items-center justify-center relative overflow-hidden group">
+              <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:4rem_4rem] z-10 pointer-events-none"></div>
+              
+              <img 
+                src="/images/b_Usa_la_imagen_adjunt.png" 
+                alt="Infraestructura de RF SENDER" 
+                className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-1000 ease-out mix-blend-screen opacity-80" 
+              />
+              <div className="absolute inset-0 bg-sender-blue/10 mix-blend-overlay pointer-events-none"></div>
+              
+              <div className="absolute bottom-6 left-6 z-20">
+                <span className="font-mono text-sender-white/90 text-xs bg-sender-dark/90 px-3 py-1.5 backdrop-blur-md border border-sender-white/20">
+                  ESTRUCTURA_RF_01.JPG
+                </span>
+              </div>
+              {/* Technical visual elements */}
+              <div className="absolute top-6 right-6 w-2 h-2 bg-sender-light rounded-full animate-pulse z-20"></div>
             </div>
           </div>
           <div className="flex flex-col justify-center">
